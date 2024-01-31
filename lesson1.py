@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 # URL of the website to scrape
 url = 'https://www.velvetwatches.uk'
 
-
 response = requests.get(url)
 
 # Check if the request was successful (status code 200)
